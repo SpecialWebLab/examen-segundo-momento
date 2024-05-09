@@ -1,0 +1,131 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color:  #3a3d47;
+    width: 100%;
+}
+.main{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.main__header{
+    width: 100%;
+    height: 100px;
+    background-color:  #1551a1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* menu */
+
+.main__menu__lista{
+    display: flex;
+    list-style: none;
+    
+}
+
+.main__menu__enlace{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+.main__menu__enlace:hover{
+    background-color: #bababa;
+}
+.banner__img{
+    width: 100%;
+}
+
+/* Servicios */
+.servicios{
+    width: 100%;
+    background-color: white;
+}
+.servicios__tituloPpal{
+    text-align: center;
+    color: #ff7600;
+    margin-top: 0px;
+    padding: 20px;
+}
+.servicios__principales{
+    display: flex;
+    justify-content: space-around;
+}
+.servicios__generales{
+    width: 100%;
+   border: 1px solid black;
+   margin: 0px 10px 25px 10px; 
+}
+.servicios__generales:hover{
+    width: 110%;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
+.servicios__img{
+    width: 100%;
+}
+.servicios__titulo{
+    width: 100%;
+    height: 40px;
+    background-color: #174EA8;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+.servicios__texto{
+    margin: 10px;
+}
+.servicios__boton{
+    width: 100px;
+    height: 42px;
+    background-color: #174EA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+.servicios__boton:hover{
+    background-color: black;
+}
+.servicios__enlace{
+    color: white;
+    text-decoration: none;
+}
+
+.rodapie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#062348;
+}
+.rodapie__descripcion{
+    width: 60%;
+}
+.rodapie__texto{
+    color: white;
+}
+.rodapie__logo{
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.rodapie__redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodapie__titulo{
+    color: white;
+}
+.rodapie__enlace:hover img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
